@@ -19,9 +19,10 @@ app = gr.Interface(
         gr.Textbox(label="Enter title"),
         gr.Textbox(label="Enter author")
     ],
-    outputs=gr.Textbox(label="Bike Details"),
-    title="The bike details by Akshay ",
-    description="Enter bike name and number to see details using class & object"
+    outputs=gr.Textbox(label="Book Details"),
+    title="The book details by Akshay ",
+    description="Enter book title,author and isbn to see details using class & object"
 )
+
 
 app.launch()
